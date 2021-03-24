@@ -1,0 +1,40 @@
+package com.baris;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    int n1,n2;
+        System.out.print("Birinci sayiyi giriniz: ");
+        Scanner numbers =new Scanner(System.in);
+        n1 = Integer.parseInt(numbers.nextLine());
+
+        System.out.print("İkinci sayiyi giriniz: ");
+        n2 = Integer.parseInt(numbers.nextLine());
+
+
+        if (n1==n2)
+        {
+            System.out.println("sayilar esittir");
+            System.out.println("sayilar farkli degildir");
+
+        }else
+        {
+            System.out.println("sayilar esit degildir");
+            System.out.println("sayilar farklidir");
+            if (n1>n2)
+            {
+                System.out.println("ilk sayi kucuk degildir");
+
+
+            }
+            else
+            {
+                System.out.println("ikinci sayi kucuk degildir");
+                System.out.println("ilk sayi kucuktur");
+            }
+
+        }
+    }
+}
