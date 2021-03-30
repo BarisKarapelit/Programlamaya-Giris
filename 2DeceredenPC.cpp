@@ -18,7 +18,7 @@ int main()
     cout<<"c sayısını giriniz:";
     cin>>c;
 
-    result= (a^a)+(b^b)+(3*c);
+    result= (a*a)+(b*b)+(3*c);
 
     cout<<"Sonuç :"<<result;
 
